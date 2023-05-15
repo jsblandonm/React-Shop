@@ -9,9 +9,13 @@ const CreateAccount = () => {
 				<form action="/" className="form">
 					<div>
 						<label for="name" className="label">Name</label>
-						<input type="text" id="name" placeholder="Teff" className="input input-name" />
+						<input type="text" id="name" placeholder="Name" className="input input-name" />
+						<label for="name" className="label">Direccion</label>
+						<input type="text" id="direccion" placeholder="Calle Wallaby 42" className="input input-direction"/>
+						<label for="name" className="label">Telefono</label>
+						<input type="#" placeholder="312598255" className="input input-direction"/>
 						<label for="email" className="label">Email</label>
-						<input type="text" id="email" placeholder="platzi@example.com" className="input input-email" />
+						<input type="text" id="email" placeholder="sebas@example.com" className="input input-email" />
 						<label for="password" className="label">Password</label>
 						<input type="password" id="password" placeholder="*********" className="input input-password" />
 					</div>
